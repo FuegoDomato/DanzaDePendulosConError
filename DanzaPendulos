@@ -91,10 +91,6 @@ def fraccionMasCarcana (t):
 		return '#'
 
 
-# Esto es re flashero, es una funcion de funciones en la que para
-# el i-esimo pendulo crea una funcion que calcula las coordenadas
-# del pendulo y mueve su dibujito en la simulacion. El j de adentro
-# de la funcion animate seria algo asi como el tiempo
 def animate_i(i):
 	def animate(j):
 		x, y = get_coords(theta[i][j], L[i])
